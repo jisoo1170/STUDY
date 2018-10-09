@@ -2,7 +2,6 @@
 여러가지 공부한거 다 올리기!
 
 
-
 - Deep Learning
 
 - Django
