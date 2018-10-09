@@ -2,7 +2,7 @@
 
 
 
-## Git 공유
+## 공유
 
 ```cmd
 git config --global user.name "이름"
@@ -12,7 +12,7 @@ git clone 공유할 주소
 
 
 
-## Git 업로드
+## 업로드
 
 ~~~cmd
 git add .(모든거)/파일명
