@@ -5,6 +5,7 @@
 - Deep Learning
 - Django
 - Git
+- Mac
 - Python
 - ROR
 - 기타 등등,,
