@@ -17,7 +17,14 @@ git clone 공유할 주소
 ~~~cmd
 git add .(모든거)/파일명
 git commit -m "설명"
-git pull
 git push (-u origin master 처음에만)
+~~~
+
+
+
+## 로컬 저장소를 원격 저장소에 맞게 갱신
+
+~~~cmd
+git pull
 ~~~
 
