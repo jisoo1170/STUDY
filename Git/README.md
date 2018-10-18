@@ -2,11 +2,20 @@
 
 
 
+## 깃 설치하고 처음에 설정하는거
+
+~~~cmd
+git config --global user.name "이름"
+git config --global user.email "이메일"
+~~~
+
+local 하면 폴더 안에서만 그런거
+
+
+
 ## 공유
 
 ```cmd
-git config --global user.name "이름"
-git config --global user.email "이메일"
 git clone 공유할 주소
 ```
 
@@ -16,8 +25,8 @@ git clone 공유할 주소
 
 ~~~cmd
 git add .(모든거)/파일명
+git pull (origin master-어떤 브렌치 인지)
 git commit -m "설명"
-git pull
 git push (-u origin master 처음에만)
 ~~~
 
