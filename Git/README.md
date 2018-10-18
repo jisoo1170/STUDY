@@ -25,8 +25,8 @@ git clone 공유할 주소
 
 ~~~cmd
 git add .(모든거)/파일명
-git pull (origin master-어떤 브렌치 인지)
 git commit -m "설명"
+git pull (origin master-어떤 브렌치 인지)
 git push (-u origin master 처음에만)
 ~~~
 
