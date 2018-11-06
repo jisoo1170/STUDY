@@ -121,3 +121,7 @@ $ pyenv global anaconda3
    ```
 
 끝! 가상환경 사용하니까 맘도 편하고 아주 간단하다.
+
+
+
+[참고](https://qiita.com/y4m3/items/19246624d3ba4d299313)
