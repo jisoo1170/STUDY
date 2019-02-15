@@ -32,3 +32,29 @@
 
 
 [gorails참고](https://gorails.com/setup/osx/10.13-high-sierra)
+
+### 프로젝트 만들기
+
+~~~cmd
+rails new 이름
+~~~
+
+
+
+### 프로젝트 실행
+
+~~~cmd
+rails s
+~~~
+
+
+
+### gem 삭제
+
+~~~cmd
+gem uninstall <이름>
+
+#이거는 전체삭제 이거하면 rails 도 삭제됨
+gem uninstall -aIx
+~~~
+

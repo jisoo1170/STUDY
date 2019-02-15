@@ -1,18 +1,99 @@
-# Django
+# [Django] 설치
 
-장고 마스터로 거듭나기!
+venv 로 가상환경을 만들면 폴더가 생기는데 git에 올릴 때는 가상환경을 올리지 않는다고 한다
 
-오우예~~~
-
-공부하면서 같이 적어나가기
+pyenv는 따로 폴더가 생기지 않으니 저걸로 그냥 해야겠다.
 
 
 
-0. 설치
-1. 프로젝트 생성
-2. 모델 생성
+## Pyenv
+
+1. #### 가상환경 생성
+
+   가상환경을 만들고 싶은 폴더 안에서 명령어 실행할 것.
+
+   ```cmd
+   $ pyenv virtualenv 3.6.5 name
+   ```
+
+2. #### 활성화
+
+   폴더 안에서 자동으로 활성화 되게 만들 수 있음.
+
+   ```cmd
+   $ pyenv local name
+   ```
+
+3. #### 장고 설치
+
+   먼저 pip 최신 버전으로 만들어 준다.
+
+   ```cmd
+   $ python3 -m pip install --upgrade pip
+   ```
+
+   그 다음 장고 설치
+
+   ```cmd
+   $ pip install django~=1.11.0
+   ```
+
+4. #### 확인, 삭제
+
+   ~~~cmd
+   $ pyenv versions
+   하면 설치된 pyenv 버전들 보여줌
+   
+   $ pyenv uninstall name
+   ~~~
+
+
+## Venv
+
+Venv는 Python 3.3 버전 이후 부터 기본 모듈에 포함된다.
 
 
 
-관리자
+1. #### 가상환경 생성
+
+   가상환경을 만들고 싶은 폴더 안에서 명령어 실행할 것.
+
+   ```cmd
+   $ python3 -m venv name
+   ```
+
+2. #### 활성화
+
+   ```cmd
+   $ source name/bin/activate
+   ```
+
+3. #### 장고 설치
+
+   먼저 pip 최신 버전으로 만들어 준다.
+
+   ```cmd
+   $ python3 -m pip install --upgrade pip
+   ```
+
+   그 다음 장고 설치
+
+   ```cmd
+   $ pip install django~=1.11.0
+   ```
+
+4. #### 비활성화
+
+   ```cmd
+   $ deactivate
+   ```
+
+5. #### 삭제
+
+   ```cmd
+   $ rm -rf name
+   ```
+
+   그냥 폴더 삭제하면 되는 듯.
+
 
