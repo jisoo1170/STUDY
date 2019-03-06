@@ -4,8 +4,15 @@ venv 로 가상환경을 만들면 폴더가 생기는데 git에 올릴 때는 �
 
 pyenv는 따로 폴더가 생기지 않으니 저걸로 그냥 해야겠다.
 
-
 ## Pyenv
+
+먼저 home-brew 를 설치해야 한다
+
+~~~cmd
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+~~~
+
+
 
 ```cmd
 $ brew install pyenv
