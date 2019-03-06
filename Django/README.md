@@ -9,6 +9,7 @@ pyenv는 따로 폴더가 생기지 않으니 저걸로 그냥 해야겠다.
 
 ```cmd
 $ brew install pyenv
+$ brew install pyenv-virtualenv
 $ vi ~/.bash_profile
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv virtualenv-init -)"
@@ -17,11 +18,16 @@ eval "$(pyenv init -)"
 $ source ~/.bash_profile
 ```
 
+> 처음 brew install pyenv 만 했는데 오류남 ㅎ
+
+
+
 1. #### 가상환경 생성
 
    가상환경을 만들고 싶은 폴더 안에서 명령어 실행할 것.
 
    ```cmd
+   $ pyenv install 3.6.5
    $ pyenv virtualenv 3.6.5 name
    ```
 
