@@ -56,3 +56,24 @@ git push
 git pull (origin master-어떤 브렌치 인지)
 ~~~
 
+
+
+브랜치 파는 이유는 내가 한 것만 볼 수 있음
+
+feature : 할 일 브랜치를 판다
+
+dev (develop) : 개발 완료 한 것들이 모여지는 브랜치
+
+dev에서 완료(안정화)가 되면 release로 합친다
+
+release : 버전 관리 안정화 됐으면 master로 합친다
+
+master : 최종 버전 들만 있는
+
+hotfix : master 까지 합쳤는데 갑자기 버그가 생긴 경우
+
+풀리퀘의 내용 : 어떤 것을 변경했다.
+
+풀리퀘 보낼때 어디서 어디로 합치는지도 선택한다. feature → dev 로
+
+대화가 완료되고 고쳐지면 resolve 누르고 모든 사람이 확인하면 머지가 됨
